@@ -1,0 +1,22 @@
+// ArrayList programs
+1. To create a new array list, add some colors (string) and print out the collection
+(Hint: List<String> colors = new ArrayList<String>();)
+2. To iterate through all elements in a array list
+(Hint: for(String ele : colors) print(ele);)
+3. To insert an element into the array list at the first position.
+(Hint: colors.add(0,'Pink))
+4. To retrieve an element (at a specified index) from a given array list
+(Hint: colors.get(0))
+5. To update specific array element by given element
+(Hint: colors.set(0,"Pink"))
+6. To remove third element from a array list
+(Hint: colors.replace(3))
+7. To search for an element in a array list
+(Hint: colors.contains("Pink"))
+8. To sort elements in a array list
+(Hint: Collections.sort(list))
+9. To copy one array list into another
+(Hint: Collections.copy(list1, list2))
+
+
+
