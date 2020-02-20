@@ -1,22 +1,47 @@
-// ArrayList programs
+// ArrayList programs || Libraries: java.util.*, java.util.ArrayList, java.util.Collections;
 1. To create a new array list, add some colors (string) and print out the collection
-(Hint: List<String> colors = new ArrayList<String>();)
+   (Hint: ArrayList<String> colors = new ArrayList<String>();)
 2. To iterate through all elements in a array list
-(Hint: for(String ele : colors) print(ele);)
+   (Hint: for(String ele : colors) print(ele);)
 3. To insert an element into the array list at the first position.
-(Hint: colors.add(0,'Pink))
+   (Hint: colors.add(0,'Pink))
 4. To retrieve an element (at a specified index) from a given array list
-(Hint: colors.get(0))
+   (Hint: colors.get(0))
 5. To update specific array element by given element
-(Hint: colors.set(0,"Pink"))
+   (Hint: colors.set(0,"Pink"))
 6. To remove third element from a array list
-(Hint: colors.replace(3))
+   (Hint: colors.remove(3))
 7. To search for an element in a array list
-(Hint: colors.contains("Pink"))
+   (Hint: colors.contains("Pink"))
 8. To sort elements in a array list
-(Hint: Collections.sort(list))
+   (Hint: Collections.sort(list))
 9. To copy one array list into another
-(Hint: Collections.copy(list1, list2))
-
+   (Hint: Collections.copy(list1, list2))
+10. To shuffle elements in a array list
+   (Hint: Collections.shuffle(list))
+11. To reverse elements in a array list
+   (Hint: Collections.reverse(list))
+12. To extract a portion of a array list
+   (Hint: List<String> subcolors = colors.subList(0,3))
+13. To compare two array lists and store result in a new array list
+   (Hint: iterate list1 and list3.add(list2.contains(list1ele)? "Yes" : "No")
+14. To swap two elements in an array list
+   (Hint: Collections.swap(list1, 0, 3))
+15. To join two array lists
+   [Hint: list3.addAll(list1), list3.addAll(list2))
+16. To clone an array list to another array list
+   [Hint: clonedList = (ArrayList)list.clone())
+17. To empty an array list
+   [Hint: list.removeAll(list);
+18. To trim the capacity of an array list to the current list size
+   [Hint: list.trimToSize()]
+19. To test an array list is empty or not
+   [Hint: if(list.isEmpty())]
+20. To increase the size of an array list
+   [Hint: list.ensureCapacity(6)]
+21. To replace the second element of a Array List with the specified element
+   [Hint: list.set(1, "pink")]
+22. To print all the elements of a ArrayList using the position of the elements
+   [Hint: iterate colors, print colors.get(i)]
 
 
